@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About PixPrompts: Free AI Photo Editing Prompt Library</title>
+<meta name="description" content="PixPrompts is a free, independent library of copy-and-paste AI photo editing prompts for ChatGPT, Gemini, Midjourney and Meta AI.">
+<link rel="canonical" href="https://pixprompts.com/about">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About PixPrompts: Free AI Photo Editing Prompt Library">
+<meta property="og:description" content="PixPrompts is a free, independent library of copy-and-paste AI photo editing prompts for ChatGPT, Gemini, Midjourney and Meta AI.">
+<meta property="og:url" content="https://pixprompts.com/about">
+<meta property="og:image" content="https://pixprompts.com/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@type":"AboutPage","@context":"https://schema.org","name":"Better AI photo edits start with better prompts.","url":"https://pixprompts.com/about","description":"PixPrompts is a free, independent library of copy-and-paste AI photo editing prompts for ChatGPT, Gemini, Midjourney and Meta AI.","isPartOf":{"@type":"WebSite","name":"PixPrompts","url":"https://pixprompts.com/"},"dateModified":"2026-11-10"}</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%231E1B3A'/%3E%3Cpath fill='%23FF5C8F' d='M6 8.5h17.8v4H6z'/%3E%3Cpath fill='%23FF8A5C' d='M6 13.1h4v4H6zM24.4 13.1h4v4h-4z'/%3E%3Cpath fill='%23FFB347' d='M6 17.7h17.8v4H6z'/%3E%3Cpath fill='%237FD6B0' d='M6 22.3h4v4H6z'/%3E%3Cpath fill='%234FD6CF' d='M6 26.9h4v4H6z'/%3E%3Cpath fill='white' d='M30.4 8.5h2.6v22.4h-2.6z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6F5FB;--card:#fff;--ink:#1E1B3A;--mute:#5D5A78;--line:#DEDCEE;
+  --pink:#D91E5B;--pink-ink:#fff;--teal:#0B7F7A;--chip:#ECEAF8;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13112B;--card:#1D1A3D;--ink:#F1EFFF;--mute:#B2AFD1;--line:#34305E;
+  --pink:#FF5C8F;--pink-ink:#1A0612;--teal:#4FD6CF;--chip:#272350;color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#13112B;--card:#1D1A3D;--ink:#F1EFFF;--mute:#B2AFD1;--line:#34305E;
+  --pink:#FF5C8F;--pink-ink:#1A0612;--teal:#4FD6CF;--chip:#272350;color-scheme:dark;}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+header{margin-top:14px;padding:26px 20px 22px;border-radius:26px;border:1.5px solid var(--line);background:radial-gradient(circle at 8% 0%,rgba(255,92,143,.28),transparent 46%),radial-gradient(circle at 96% 12%,rgba(79,160,255,.28),transparent 44%),radial-gradient(circle at 62% 110%,rgba(255,190,80,.30),transparent 52%),var(--card)}
+.brand{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;font-weight:800;font-size:1.3rem;display:flex;align-items:center;gap:10px}
+.brand a{color:inherit;text-decoration:none;display:flex;align-items:center;gap:10px}
+@media (prefers-reduced-motion:no-preference){.cur{animation:bl 1.2s steps(1) infinite}}@keyframes bl{50%{opacity:0}}
+.tabs{display:flex;gap:8px;margin:14px 0 0;flex-wrap:wrap}.tabs a{font-size:.9rem;font-weight:700;text-decoration:none;color:var(--ink);padding:7px 15px;border-radius:999px;border:1.5px solid var(--line);background:var(--chip)}.tabs a[aria-current=page]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+h1{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;font-weight:800;font-size:clamp(2rem,7vw,3.2rem);line-height:1.05;margin:22px 0 10px;letter-spacing:-.02em;max-width:18ch}
+.lead{color:var(--mute);max-width:56ch;margin:0}
+.d{color:var(--mute);font-size:.85rem;margin:14px 0 0}
+article.doc{max-width:720px;margin:22px auto 0;background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:6px 22px 22px}
+h2{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;font-size:1.25rem;margin:26px 0 6px}
+article.doc p{margin:0 0 10px}
+article.doc a{color:var(--teal);font-weight:700}
+.mail{display:inline-block;margin:4px 0 6px;font-size:1.05rem}
+form{display:grid;gap:10px;margin-top:10px}
+label{font-size:.9rem;font-weight:700}
+input,textarea{font:inherit;width:100%;padding:13px 16px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink)}
+input:focus,textarea:focus{outline:3px solid var(--teal);outline-offset:2px}
+textarea{min-height:130px;resize:vertical}
+.btn{font:inherit;font-weight:700;background:linear-gradient(135deg,var(--pink),#E8453C);color:var(--pink-ink);border:0;border-radius:999px;padding:12px 24px;cursor:pointer;justify-self:start}
+.ok{display:none;background:var(--chip);border-radius:12px;padding:12px 14px;font-weight:700}
+footer{border-top:1px solid var(--line);margin-top:34px;padding:20px 0 36px;color:var(--mute);font-size:.85rem}
+footer p{margin:0 0 8px}.flinks{display:flex;flex-wrap:wrap;gap:6px 16px;margin-bottom:12px}.flinks a{color:inherit}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5494858689136714" crossorigin="anonymous">
+</script>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand"><svg width="36" height="36" viewBox="0 0 40 40" role="img" aria-label="PixPrompts logo"><rect x=".75" y=".75" width="38.5" height="38.5" rx="10" fill="#1E1B3A" stroke="#fff" stroke-opacity=".22" stroke-width="1.5"/><g><rect x="6" y="8.5" width="4" height="4" rx="1" fill="#FF5C8F"/><rect x="10.6" y="8.5" width="4" height="4" rx="1" fill="#FF5C8F"/><rect x="15.2" y="8.5" width="4" height="4" rx="1" fill="#FF5C8F"/><rect x="19.8" y="8.5" width="4" height="4" rx="1" fill="#FF5C8F"/><rect x="6" y="13.1" width="4" height="4" rx="1" fill="#FF8A5C"/><rect x="24.4" y="13.1" width="4" height="4" rx="1" fill="#FF8A5C"/><rect x="6" y="17.7" width="4" height="4" rx="1" fill="#FFB347"/><rect x="10.6" y="17.7" width="4" height="4" rx="1" fill="#FFB347"/><rect x="15.2" y="17.7" width="4" height="4" rx="1" fill="#FFB347"/><rect x="19.8" y="17.7" width="4" height="4" rx="1" fill="#FFB347"/><rect x="6" y="22.3" width="4" height="4" rx="1" fill="#7FD6B0"/><rect x="6" y="26.9" width="4" height="4" rx="1" fill="#4FD6CF"/></g><rect class="cur" x="30.4" y="8.5" width="2.6" height="22.4" rx="1.3" fill="#fff"/></svg>PixPrompts</div>
+  <nav class="tabs" aria-label="Main"><a href="/">Prompts</a><a href="/guides">Guides</a><a href="/about" aria-current="page">About</a><a href="/contact">Contact</a></nav>
+  <h1>Better AI photo edits start with better prompts.</h1>
+  <p class="lead">PixPrompts is a free, independent library of copy-ready prompts for editing photos with AI tools like ChatGPT, Gemini, Midjourney and Meta AI.</p>
+  <p class="d">Last updated: November 10, 2026</p>
+</header>
+<main>
+<article class="doc">
+<h2>Why it exists</h2>
+<p>Getting a good AI photo edit usually comes down to wording. A vague request gives a vague result. PixPrompts collects tested, trending looks and writes them as clear prompts, so you can tap Copy, upload your photo and paste, without trial and error.</p>
+<h2>How it works</h2>
+<p>Pick a style or search by keyword, copy the prompt, then paste it into your AI tool along with your own photo. Each prompt says what to change and what to keep, such as the face, pose and clothing. We never ask you to upload photos to this site.</p>
+<h2>How prompts are made</h2>
+<p>Each prompt is written and reviewed by hand, tried in more than one tool where possible, and refined when results look off. Results still vary by tool and by photo, so we include tips for adjusting one detail at a time.</p>
+<h2>Responsible use</h2>
+<p>Only edit photos you have the right to use, and never edit other people’s photos without permission. See our <a href="/terms">Terms of Use</a>.</p>
+<h2>Supporting the site</h2>
+<p>PixPrompts is free. It is supported by ads and affiliate links, explained in our <a href="/affiliate-disclosure">Affiliate Disclosure</a> and <a href="/privacy">Privacy Policy</a>.</p>
+<h2>Get in touch</h2>
+<p>Suggestions for new looks and bug reports are welcome: <a href="mailto:saiganeshchimmiri2003@gmail.com">saiganeshchimmiri2003@gmail.com</a> or visit the <a href="/contact">Contact page</a>.</p>
+<p><a href="/">Browse the free prompts</a></p>
+</article>
+</main>
+<footer>
+<nav class="flinks" aria-label="Legal"><a href="/guides">Guides</a><a href="/about">About</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/disclaimer">Disclaimer</a><a href="/affiliate-disclosure">Affiliate disclosure</a><a href="/contact">Contact</a></nav>
+<p>PixPrompts is an independent prompt library. Results vary by AI tool. Use only photos you have the right to edit, and don’t edit other people’s photos without permission.</p>
+<p>Contains affiliate links and ads. Not affiliated with any AI provider. © 2026 PixPrompts · <a href="mailto:saiganeshchimmiri2003@gmail.com">saiganeshchimmiri2003@gmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
