@@ -1,0 +1,15 @@
+{
+  "name": "pixprompts-cloudflare",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  "kv_namespaces": [
+    { "binding": "PIXPROMPTS", "id": "65b608d36b6443eaa749341040fffd70" }
+  ],
+  "observability": { "enabled": true }
+}

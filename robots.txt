@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin.html
+Disallow: /api/prompts?all=1
+
+Sitemap: https://pixprompts.com/sitemap.xml

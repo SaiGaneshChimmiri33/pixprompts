@@ -1,0 +1,210 @@
+[
+ {
+  "id": "seed0",
+  "title": "Soft anime portrait",
+  "category": "Portraits",
+  "tools": "ChatGPT, Gemini",
+  "colors": [
+   "#FFB6C9",
+   "#8EC5FF"
+  ],
+  "text": "Turn my uploaded photo into a soft hand-painted anime illustration. Keep my face, pose and clothing the same. Use pastel colours, gentle shading, a dreamy sky background and clean line art.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed1",
+  "title": "Vintage film look",
+  "category": "Vintage",
+  "tools": "All tools",
+  "colors": [
+   "#E6A15C",
+   "#5B4636"
+  ],
+  "text": "Edit my photo to look like a 1990s film photograph: warm faded colours, light grain, slight vignette, soft highlights and natural skin tones. Keep the original composition.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed2",
+  "title": "Golden hour glow",
+  "category": "Portraits",
+  "tools": "All tools",
+  "colors": [
+   "#FFC857",
+   "#F2708E"
+  ],
+  "text": "Relight my photo as if taken during golden hour. Add warm side light, soft lens flare, glowing hair edges and a blurred warm background. Keep my face unchanged.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed3",
+  "title": "Festive Diwali portrait",
+  "category": "Festival",
+  "tools": "ChatGPT, Gemini",
+  "colors": [
+   "#FF9F1C",
+   "#6A1B9A"
+  ],
+  "text": "Place me in a Diwali celebration with glowing diyas, string lights and rangoli in the background. Warm festive lighting, traditional outfit colours enhanced. Keep my face and pose exactly the same.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed4",
+  "title": "Traditional saree elegance",
+  "category": "Festival",
+  "tools": "ChatGPT, Gemini",
+  "colors": [
+   "#C2185B",
+   "#FFD54F"
+  ],
+  "text": "Give my photo an elegant editorial look: rich jewel-tone background, soft studio light, and enhanced fabric detail on my outfit. Keep my face, body shape and pose unchanged.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed5",
+  "title": "Cinematic movie still",
+  "category": "Cinematic",
+  "tools": "All tools",
+  "colors": [
+   "#0F4C5C",
+   "#E36414"
+  ],
+  "text": "Turn my photo into a cinematic movie still with teal and orange colour grading, shallow depth of field, soft haze and a widescreen crop. Keep my identity unchanged.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed6",
+  "title": "Clean LinkedIn headshot",
+  "category": "Professional",
+  "tools": "ChatGPT, Gemini",
+  "colors": [
+   "#B0BEC5",
+   "#455A64"
+  ],
+  "text": "Convert my photo into a professional headshot: neutral grey studio background, soft even lighting, sharp eyes, tidy look. Keep my face and hairstyle natural and unchanged.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed7",
+  "title": "Miniature toy-figure style",
+  "category": "3D & toy",
+  "tools": "ChatGPT, Gemini",
+  "colors": [
+   "#4FC3F7",
+   "#FF8A65"
+  ],
+  "text": "Turn me into a glossy collectible toy figure in a clear display box, with small accessories that match my hobbies. Studio product lighting, plain background. Keep my face recognisable.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed8",
+  "title": "Pencil sketch",
+  "category": "Art styles",
+  "tools": "All tools",
+  "colors": [
+   "#EEEEEE",
+   "#757575"
+  ],
+  "text": "Convert my photo into a detailed graphite pencil sketch on textured paper with fine shading and cross-hatching. Keep proportions and facial features accurate.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed9",
+  "title": "Watercolour painting",
+  "category": "Art styles",
+  "tools": "All tools",
+  "colors": [
+   "#80DEEA",
+   "#F48FB1"
+  ],
+  "text": "Repaint my photo as a loose watercolour: soft bleeding edges, visible paper texture, light washes of colour. Keep the composition and my face recognisable.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed10",
+  "title": "Neon night city",
+  "category": "Cinematic",
+  "tools": "Midjourney, Gemini",
+  "colors": [
+   "#7C4DFF",
+   "#00E5FF"
+  ],
+  "text": "Place me on a rainy city street at night with neon signs reflecting on wet roads. Purple and cyan lighting, cinematic mood. Keep my face and pose the same.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed11",
+  "title": "Couple travel postcard",
+  "category": "Couples",
+  "tools": "ChatGPT, Gemini",
+  "colors": [
+   "#4DB6AC",
+   "#FFD180"
+  ],
+  "text": "Edit our couple photo so we are standing in front of a scenic mountain lake at sunrise, like a travel postcard. Natural light, soft colours. Keep both faces and poses unchanged.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed12",
+  "title": "Black and white classic",
+  "category": "Vintage",
+  "tools": "All tools",
+  "colors": [
+   "#212121",
+   "#BDBDBD"
+  ],
+  "text": "Convert my photo to a timeless black and white portrait with deep contrast, fine grain and soft window light. Keep every facial detail natural.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed13",
+  "title": "Clean background swap",
+  "category": "Quick fixes",
+  "tools": "All tools",
+  "colors": [
+   "#A5D6A7",
+   "#FFF59D"
+  ],
+  "text": "Remove the background of my photo and replace it with a smooth soft-green studio gradient. Keep hair edges clean and natural. Do not change my face or outfit.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed14",
+  "title": "Skin and lighting polish",
+  "category": "Quick fixes",
+  "tools": "ChatGPT, Gemini",
+  "colors": [
+   "#FFCCBC",
+   "#D7CCC8"
+  ],
+  "text": "Lightly retouch my photo: even out lighting, reduce harsh shadows, keep natural skin texture. Do not reshape my face or change my features.",
+  "image": "",
+  "published": true
+ },
+ {
+  "id": "seed15",
+  "title": "Pixel art avatar",
+  "category": "3D & toy",
+  "tools": "All tools",
+  "colors": [
+   "#66BB6A",
+   "#5C6BC0"
+  ],
+  "text": "Turn my photo into a 16-bit pixel art character avatar with a limited colour palette, clear outlines and a plain colourful background. Keep my hairstyle and outfit colours.",
+  "image": "",
+  "published": true
+ }
+]
