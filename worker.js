@@ -1,7 +1,7 @@
 // Cloudflare Worker entry: serves the static site from this folder and runs the
 // /api/* backend. It keeps the API in the api-*.js files next to it.
 import * as prompts from "./api-prompts.js";
-import * * as contact from "./api-contact.js";
+import * as contact from "./api-contact.js";
 import * as subscribe from "./api-subscribe.js";
 import * as inbox from "./api-inbox.js";
 import * as imgUpload from "./api-img-upload.js";
@@ -27,10 +27,9 @@ export default {
     if (m) return call(imgGet, request, env, ctx, { name: decodeURIComponent(m[1]) });
     if (p.startsWith("/api/")) return new Response("not found", { status: 404 });
 
-    // Show the blog landing page at the website root, while keeping /blog available.
+    // Serve the blog landing page at the website root without redirecting the URL.
     if (p === "/") {
-      const blogUrl = new URL("/blog.html", request.url);
-      const blogRequest = new Request(blogUrl.toString(), request);
+      const blogRequest = new Request(new URL("/blog.html", request.url), request);
       return env.ASSETS.fetch(blogRequest);
     }
 
